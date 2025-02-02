@@ -41,15 +41,15 @@ Before running this project, ensure you have:
 <br>**Input Format**<br>
 The program takes:<br>
 1.	A list of tasks with the following attributes:
-o	id: Task identifier (e.g., "A", "B").
-o	duration: Time required to complete the task.
-o	deadline: Maximum allowable time to complete the task.
-o	resources: Number of resources needed for the task.<br>
+	id: Task identifier (e.g., "A", "B").
+	duration: Time required to complete the task.
+	deadline: Maximum allowable time to complete the task.
+	resources: Number of resources needed for the task.<br>
 2.	A list of dependencies, specifying which task depends on another.<br>
 3.	The total number of available resources.<br>
 <br>**📌 Example**
 Example Input/Output
-**INPUT**
+**INPUT**<br>
 Enter the number of tasks: 4<br>
 Enter task details (ID, Duration, Deadline, Resources):<br>
 A 4 10 2<br>
