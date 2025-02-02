@@ -7,11 +7,11 @@ This Java project implements a Task Scheduler that schedules a set of tasks with
 •	Ensures that no task exceeds its deadline.<br>
 •	Prints the scheduled start time, end time, and resource allocation for each task.<br>
 <br>**Prerequisites**<br>
-Before running this project, ensure you have:
+Before running this project, ensure you have:<br>
 •	Java JDK (8 or higher) installed → Check using java -version<br>
 •	Git installed (if cloning from GitHub)<br>
 <br>**Project Structure**
-/Java-DSA-Project
+/Java-DSA-Project<br>
   ├── Main.java            # Main entry point of the project<br>
   ├── Task.java            # Task class definition<br>
   ├── TaskScheduler.java   # Handles task scheduling logic<br>
