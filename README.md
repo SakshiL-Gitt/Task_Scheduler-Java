@@ -10,45 +10,52 @@ This Java project implements a Task Scheduler that schedules a set of tasks with
 Before running this project, ensure you have:
 •	Java JDK (8 or higher) installed → Check using java -version<br>
 •	Git installed (if cloning from GitHub)<br>
-<br>**Installation & Setup**
-🔹 Method 1: Clone the Repository (Recommended)<br>
-1.	Open a terminal (Linux/macOS) or Command Prompt (Windows).<br>
-2.	Run the following command to clone the repository:<br>
-       git clone https://github.com/SakshiL-Gitt/Task_Scheduler-Java
-3.	Navigate into the project directory:<br>
-      cd Task-Scheduler-Java<br>
+<br>**Project Structure**
+/Java-DSA-Project
+  ├── Main.java            # Main entry point of the project<br>
+  ├── Task.java            # Task class definition<br>
+  ├── TaskScheduler.java   # Handles task scheduling logic<br>
+  ├── README.md            # Project documentation<br>
+
+<br>**Installation & Setup**<br>
+🔹 Method 1: Clone the Repository<br>
+•	Open a terminal (Linux/macOS) or Command Prompt (Windows)<br>.
+•	Run the following command to clone the repository:<br>
+             git clone https://github.com/SakshiL-Gitt/Task_Scheduler-Java<br>
+•	Navigate into the project directory:<br>
+            cd Java-DSA-Project<br>
 🔹 Method 2: Download Files Manually<br>
-1.	Go to the GitHub repository.
-2.	Click on each .java file, then press the "Download" button.
-3.	Save all files in a new local folder (e.g., Java-DSA-Project).
-4.	Open Command Prompt/Terminal and navigate to the folder where you saved the files:
-      cd path/to/Java-DSA-Project<br>
+•	Go to the GitHub repository.<br>
+•	Click on each .java file, then press the "Download" button.<br>
+•	Save all files in a new local folder (e.g., Java-DSA-Project).<br>
+•	Open Command Prompt/Terminal and navigate to the folder where you saved the files:<br>
+•	cd path/to/Java-DSA-Project<br>
 <br>**How to Run the Project**<br>
-🔸 Windows
-1.	Open Command Prompt (cmd) and navigate to the project folder:<br>
-                       cd path\to\Java-DSA-Project
-2.	Compile the Java files:<br>
-                     javac *.java
-3.	Run the project:
-                    java Main<br>
-🔸 Linux/macOS
-1.	Open a terminal and navigate to the project folder:<br>
-                    cd path/to/Java-DSA-Project
-2.	Compile:<br>
-                     javac *.java
-3.	Run:<br>
-                     java Main<br>
+🔸 Windows<br>
+•	Open Command Prompt (cmd) and navigate to the project folder:<br>
+                             cd path\to\Java-DSA-Project<br>
+•	Compile the Java files:<br>
+                            javac *.java<br>
+•	Run the project:<br>
+                            java Main<br>
+🔸 Linux/macOS<br>
+•	Open a terminal and navigate to the project folder:<br>
+                 cd path/to/Java-DSA-Project<br>
+•	Compile:<br>
+                javac *.java<br>
+•	Run:<br>
+                java Main<br>
 <br>**Input Format**<br>
 The program takes:<br>
-1.	A list of tasks with the following attributes:
-	id: Task identifier (e.g., "A", "B").
-	duration: Time required to complete the task.
-	deadline: Maximum allowable time to complete the task.
+1.	A list of tasks with the following attributes:<br>
+	id: Task identifier (e.g., "A", "B").<br>
+	duration: Time required to complete the task.<br>
+	deadline: Maximum allowable time to complete the task.<br>
 	resources: Number of resources needed for the task.<br>
 2.	A list of dependencies, specifying which task depends on another.<br>
 3.	The total number of available resources.<br>
-<br>**📌 Example**
-Example Input/Output
+<br>**📌 Example**<br>
+Example Input/Output<br>
 **INPUT**<br>
 Enter the number of tasks: 4<br>
 Enter task details (ID, Duration, Deadline, Resources):<br>
